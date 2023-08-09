@@ -1,8 +1,6 @@
 # Big4PaperList
 A curated list of Security Big4 papers for Privacy, Mobile Security and Access Control.
 
-[toc]
-
 ## Upcoming conferences
 
 - [USENIX Security'23](https://www.usenix.org/conference/usenixsecurity23/) (AUG 9–11, 2023)
