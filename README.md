@@ -47,7 +47,6 @@ A curated list of Security Big4 papers for Privacy, Mobile Security and Access C
 
 - Automated Cookie Notice Analysis and Enforcement(**Security'23**)[[paper](https://www.usenix.org/system/files/sec23fall-prepub-389-khandelwal.pdf)]
 - Automating Cookie Consent and GDPR Violation Detection(**Security'22**)[[paper](https://www.usenix.org/system/files/sec22-bollinger.pdf)] [[slides](https://www.usenix.org/system/files/sec22_slides-bollinger.pdf)]
-  
 - HARPO: Learning to Subvert Online Behavioral Advertising(**NDSS'22**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/2022-62-paper.pdf)]
 - PriSEC: A Privacy Settings Enforcement Controller(**Security'21**)[[paper](https://www.usenix.org/system/files/sec21-khandelwal.pdf)] [[slides](https://www.usenix.org/system/files/sec21_slides_khandelwal.pdf)]
 - Detecting Filter List Evasion with Event-Loop-Turn Granularity JavaScript Signatures(**Oakland'21**)[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519497)]
@@ -97,13 +96,11 @@ A curated list of Security Big4 papers for Privacy, Mobile Security and Access C
 
 - Black-box Adversarial Example Attack towards FCG Based Android Malware Detection under Incomplete Feature Information(**Security'23**)[[paper](https://www.usenix.org/system/files/sec23fall-prepub-2-li-heng.pdf)]
 - One Size Does not Fit All: Quantifying the Risk of Malicious App Encounters for Different Android User Profiles(**Security'23**)[[paper](https://www.usenix.org/system/files/sec23fall-prepub-307-dambra.pdf)]
-  
 - Detecting and Measuring Misconfigured Manifests in Android Apps(**CCS'22**)[[paper](https://web.cse.ohio-state.edu/~lin.3021/file/CCS22c.pdf)]
 - A Large-scale Temporal Measurement of Android Malicious Apps: Persistence, Migration, and Lessons Learned(**Security'22**)[[paper](https://www.usenix.org/system/files/sec22-shen-yun.pdf)]
 - FSAFlow: Lightweight and Fast Dynamic Path Tracking and Control for Privacy Protection on Android Using Hybrid Analysis with State-Reduction Strategy(**Oakland'22**)[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9833764)]
 - Structural Attack against Graph Based Android Malware Detection(**CCS'21**)[[paper](https://www4.comp.polyu.edu.hk/~csxluo/HRAT.pdf)]
 - Understanding Malicious Cross-library Data Harvesting on Android(**Security'21**)[[paper](https://www.usenix.org/system/files/sec21-wang-jice.pdf)] [[slides](https://www.usenix.org/system/files/sec21_slides_wang-jice.pdf)]
-  
 - Preventing and Detecting State Inference Attacks on Android(**NDSS'21**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_3B-5_24479_paper.pdf)]
 - Differential Training: A Generic Framework to Reduce Label Noises for Android Malware Detection(**NDSS'21**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_4C-3_24126_paper.pdf)]
 - The Abuser Inside Apps: Finding the Culprit Committing Mobile Ad Fraud(**NDSS'21**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_3B-1_23161_paper-1.pdf)]
@@ -151,7 +148,6 @@ A curated list of Security Big4 papers for Privacy, Mobile Security and Access C
 - P-Verifier: Understanding and Mitigating Security Risks in Cloud-based IoT Access Policies(**CCS'22**)[[paper](https://dl.acm.org/doi/pdf/10.1145/3548606.3560680)]
 - FReD: Identifying File Re-Delegation in Android System Services(**Security'22**)[[paper](https://www.usenix.org/system/files/sec22-gorski.pdf)] [[slides](https://www.usenix.org/system/files/sec22_slides-gorski.pdf)]
 - Uncovering Cross-Context Inconsistent Access Control Enforcement in Android(**NDSS'22**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/2022-166-paper.pdf)]
-  
 - Android Custom Permissions Demystified: From Privilege Escalation to Design Shortcomings(**Oakland'21**)[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519385)]
 
 #### Strategy Design
