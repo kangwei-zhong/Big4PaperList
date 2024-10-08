@@ -8,12 +8,16 @@ A curated list of Security Big4 papers for Privacy, Mobile Security and Access C
 - [NDSS'24](https://www.ndss-symposium.org/ndss2024/) (Feb 26–Mar 1, 2024)
 - [Oakland'24](https://sp2024.ieee-security.org/) (MAY 20-23, 2024)
 
-## Papers
+## Privacy
 
-### Privacy
+### Privacy Policy & Code Behavior
 
-#### Privacy Policy & Code Behavior
-
+- Towards Automated Regulation Analysis for Effective Privacy Compliance(NDSS’24)[[paper](https://www.ndss-symposium.org/wp-content/uploads/2024-650-paper.pdf)]
+- Automated Expansion of Privacy Data Taxonomy for Compliant Data Breach Notification(NDSS’25)[paper]
+- VPVet: Vetting Privacy Policies of Virtual Reality Apps(CCS’24)[[paper](https://arxiv.org/pdf/2409.00740)]
+- Are We Getting Well-informed? An In-depth Study of Runtime Privacy Notice Practice in Mobile Apps(CCS’24)[[paper](https://yangzhemin.github.io/papers/reno-ccs2024.pdf)]
+- PolicyChecker: Analyzing the GDPR Completeness of Mobile Apps' Privacy Policies[CCS’23]([paper]())
+- Automated Large-Scale Analysis of Cookie Notice Compliance(Security’24)[[paper](https://www.usenix.org/system/files/usenixsecurity24-bouhoula.pdf)]
 - POLICYCOMP: Counterpart Comparison of Privacy Policies Uncovers Overbroad Personal Data Collection Practices(**Security'23**)[[paper](https://www.usenix.org/system/files/sec23summer_19-zhou_lu-prepub.pdf)]
 - Lalaine: Measuring and Characterizing Non-Compliance of Apple Privacy Labels(**Security'23**)[[paper](https://www.usenix.org/system/files/sec23fall-prepub-392-xiao-yue.pdf)]
 - The OK Is Not Enough: A Large Scale Study of Consent Dialogs in Smartphone Applications(**Security'23**)[[paper](https://www.usenix.org/system/files/sec23fall-prepub-215-koch.pdf)]
@@ -26,14 +30,21 @@ A curated list of Security Big4 papers for Privacy, Mobile Security and Access C
 - Scraping Sticky Leftovers: App User Information Left on Servers After Account Deletion(**Oakland'22**)[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9833720)]
 - Consistency Analysis of Data-Usage Purposes in Mobile Apps(**CCS'21**)[[paper](https://dl.acm.org/doi/pdf/10.1145/3460120.3484536)]
 
-#### Privacy Policy Generation
+### Privacy Policy Generation
 
-- RuleKeeper: GDPR-Aware Personal Data Compliance for Web Frameworks(**Oakland'23**)[[paper](https://syssec.dpss.inesc-id.pt/papers/ferreira_sp23.pdf)] 
-- PrivGuard: Privacy Regulation Compliance Made Easier(**Security'22**)[[paper](https://www.usenix.org/system/files/sec22-wang-lun.pdf)] 
+- RuleKeeper: GDPR-Aware Personal Data Compliance for Web Frameworks(**Oakland'23**)[[paper](https://syssec.dpss.inesc-id.pt/papers/ferreira_sp23.pdf)]
+- PrivGuard: Privacy Regulation Compliance Made Easier(**Security'22**)[[paper](https://www.usenix.org/system/files/sec22-wang-lun.pdf)]
 - PrivacyFlash Pro: Automating Privacy Policy Generation for Mobile Apps(**NDSS'21**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_7C-3_24100_paper.pdf)]
 
-#### 	Privacy Leakage & Detection
+### Privacy Leakage & Detection
 
+- Leaking the Privacy of Groups and More: Understanding Privacy Risks of Cross-App Content Sharing in Mobile Ecosystem(NDSS’24)[[paper](https://www.ndss-symposium.org/wp-content/uploads/2024-138-paper.pdf)]
+- Withdrawing is believing? Detecting Inconsistencies Between Withdrawal Choices and Third-party Data Collections in Mobile Apps(Oakland’24)[[paper](https://yinzhicao.org/mowchecker/mowchecker.pdf)]
+- Measuring Compliance Implications of Third-party Libraries’ Privacy Label Disclosure Guidelines(CCS’24)[[paper](https://www.xiaojingliao.com/uploads/9/7/0/2/97024238/yueccs24colaine.pdf)]
+- CookieGraph: Understanding and Detecting First-Party Tracking Cookies[CCS’23]([paper]())
+- Can Virtual Reality Protect Users from Keystroke Inference Attacks?(Security’24)[[paper](https://www.usenix.org/system/files/usenixsecurity24-yang-zhuolin.pdf)]
+- Exploring Covert Third-party Identifiers through External Storage in the Android New Era(Security’24)[[paper](https://www.usenix.org/system/files/usenixsecurity24-dong-zikan.pdf)]
+- Security and Privacy Analysis of Samsung's Crowd-Sourced Bluetooth Location Tracking System(Security’24)[[paper](https://www.usenix.org/system/files/usenixsecurity24-yu-tingfeng.pdf)]
 - Collect Responsibly But Deliver Arbitrarily?: A Study on Cross-User Privacy Leakage in Mobile Apps(**CCS'22**)[[paper](https://dl.acm.org/doi/pdf/10.1145/3548606.3559371)]
 - Cart-ology: Intercepting Targeted Advertising via Ad Network Identity Entanglement(**CCS'22**)[[paper](https://dl.acm.org/doi/pdf/10.1145/3548606.3560641)]
 - Electronic Monitoring Smartphone Apps: An Analysis of Risks from Technical, Human-Centered, and Legal Perspectives(**Security'22**)[[paper](https://www.usenix.org/system/files/sec22-owens.pdf)] [[slides](https://www.usenix.org/system/files/sec22_slides-owens.pdf)]
@@ -41,15 +52,16 @@ A curated list of Security Big4 papers for Privacy, Mobile Security and Access C
 - Awakening the Web's Sleeper Agents: Misusing Service Workers for Privacy Leakage(**NDSS'21**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1C-2_23104_paper.pdf)]
 - All the Numbers are US: Large-scale Abuse of Contact Discovery in Mobile Messengers(**NDSS'21**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1C-3_23159_paper.pdf)]
 
-#### Privacy Enhancement
+### Privacy Enhancement
 
+- AirGapAgent: Protecting Privacy-Conscious Conversational Agents(CCS’24)[[paper](https://arxiv.org/pdf/2405.05175)]
 - Automated Cookie Notice Analysis and Enforcement(**Security'23**)[[paper](https://www.usenix.org/system/files/sec23fall-prepub-389-khandelwal.pdf)]
 - Automating Cookie Consent and GDPR Violation Detection(**Security'22**)[[paper](https://www.usenix.org/system/files/sec22-bollinger.pdf)] [[slides](https://www.usenix.org/system/files/sec22_slides-bollinger.pdf)]
 - HARPO: Learning to Subvert Online Behavioral Advertising(**NDSS'22**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/2022-62-paper.pdf)]
 - PriSEC: A Privacy Settings Enforcement Controller(**Security'21**)[[paper](https://www.usenix.org/system/files/sec21-khandelwal.pdf)] [[slides](https://www.usenix.org/system/files/sec21_slides_khandelwal.pdf)]
 - Detecting Filter List Evasion with Event-Loop-Turn Granularity JavaScript Signatures(**Oakland'21**)[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519497)]
 
-#### Privacy in IOT
+### Privacy in IOT
 
 - Are You Spying on Me? Large-Scale Analysis on IoT Data Exposure through Companion Apps(**Security'23**)[[paper](https://www.usenix.org/system/files/sec23summer_254-nan-prepub.pdf)]
 - "It's up to the Consumer to be Smart": Understanding the Security and Privacy Attitudes of Smart Home Users on Reddit(**Oakland'23**)[[paper](https://jingjieli95.github.io/publications/ConsumerSmart_Oakland_23_preprint.pdf)]
@@ -59,17 +71,35 @@ A curated list of Security Big4 papers for Privacy, Mobile Security and Access C
 - PFirewall: Semantics-Aware Customizable Data Flow Control for Smart Home Privacy Protection(**NDSS'21**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_5A-3_24464_paper.pdf)]
 - Hey Alexa, is this Skill Safe?: Taking a Closer Look at the Alexa Skill Ecosystem(**NDSS'21**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_5A-1_23111_paper.pdf)]
 
-#### Measurement Study
+### Measurement / User Study
 
+- Transparency or Information Overload? Evaluating Users’ Comprehension and Perceptions of the iOS App Privacy Report(NDSS’25)[paper]
+- Targeted and Troublesome: Tracking and Advertising on Children’s Websites(Oakland’24)[[paper](https://arxiv.org/pdf/2308.04887)]
+- SoK: Technical Implementation and Human Impact of Internet Privacy Regulations(Oakland’24)[[paper](https://arxiv.org/pdf/2312.15383)]
+- A Qualitative Analysis of Practical De-identification Guides(CCS’24)[paper (unfind)]
+- Privacy in the Age of Neurotechnology: Investigating Public Attitudes towards Brain Data Collection and Use[CCS’23]([paper]())
+- Swipe Left for Identity Theft: An Analysis of User Data Privacy Risks on Location-based Dating Apps(Security’24)[[paper](https://www.usenix.org/system/files/usenixsecurity24-dhondt.pdf)]
+- Unpacking Privacy Labels: A Measurement and Developer Perspective on Google's Data Safety Section(Security’24)[[paper](https://www.usenix.org/system/files/usenixsecurity24-khandelwal.pdf)]
+- ATTention Please! An Investigation of the App Tracking Transparency Permission(Security’24)[[paper](https://www.usenix.org/system/files/usenixsecurity24-mohamed.pdf)]
+- Is It a Trap? A Large-scale Empirical Study And Comprehensive Assessment of Online Automated Privacy Policy Generators for Mobile Apps(Security’24)[[paper](https://www.usenix.org/system/files/usenixsecurity24-pan-shidong-trap.pdf)]
+- Dissecting Privacy Perspectives of Websites Around the World: "Aceptar Todo, Alle Akzeptieren, Accept All..."(Security’24)[[paper](https://www.usenix.org/system/files/usenixsecurity24-ogut.pdf)]
+- "I Don't Know If We're Doing Good. I Don't Know If We're Doing Bad": Investigating How Practitioners Scope, Motivate, and Conduct Privacy Work When Developing AI Products(Security’24)[[paper](https://www.usenix.org/system/files/usenixsecurity24-lee.pdf)]
+- How WEIRD is Usable Privacy and Security Research?(Security’24)[[paper](https://www.usenix.org/system/files/usenixsecurity24-hasegawa.pdf)]
+- The Effect of Design Patterns on (Present and Future) Cookie Consent Decisions(Security’24)[[paper](https://www.usenix.org/system/files/usenixsecurity24-bielova.pdf)]
+- Are Consumers Willing to Pay for Security and Privacy of IoT Devices?(Security’23)[[paper](https://www.usenix.org/conference/usenixsecurity23/presentation/emami-naeini)]
+- Assessing Anonymity Techniques Employed in German Court Decisions: A De-Anonymization Experiment(Security’23)[[paper](https://www.usenix.org/system/files/usenixsecurity23-deuber.pdf)]
+- Security and Privacy Failures in Popular 2FA Apps(Security’23)[[paper](https://www.usenix.org/system/files/usenixsecurity23-gilsenan.pdf)]
+- “If sighted people know, I should be able to know:” Privacy Perceptions of Bystanders with Visual Impairments around Camera-based Technology(Security’23)[[paper](https://www.usenix.org/system/files/usenixsecurity23-zhao-yuhang.pdf)]
 - A Large-scale Investigation into Geodifferences in Mobile Apps(**Security'22**)[[paper](https://www.usenix.org/system/files/sec22-kumar.pdf)] [[slides](https://www.usenix.org/system/files/sec22_slides-kumar.pdf)]
 - The State of the SameSite: Studying the Usage, Effectiveness, and Adequacy of SameSite Cookies(**Oakland'22**)[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9833637)]
 - Understanding Worldwide Private Information Collection on Android(**NDSS'21**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_3B-3_24076_paper.pdf)]
 - Journey to the Center of the Cookie Ecosystem: Unraveling Actors' Roles and Relationships(**Oakland'21**)[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9796062)]
 
-### Mobile Security
+## Mobile Security
 
-#### Mobile Framework Security
+### Mobile Framework Security
 
+- Wear’s my Data? Understanding the Cross-Device Runtime Permission Model in Wearables(Oakland’24)[[paper](https://habiba-farrukh.github.io/files/WearOS.pdf)]
 - Log: It’s Big, It’s Heavy, It’s Filled with Personal Data! Measuring the Logging of Sensitive Information in the Android Ecosystem(**Security'23**)[[paper](https://www.usenix.org/system/files/sec23fall-prepub-89-lyons.pdf)]
 - Post-GDPR Threat Hunting on Android Phones: Dissecting OS-level Safeguards of User-unresettable Identifiers (**NDSS'23**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s176_paper.pdf)]
 - Uncovering Intent based Leak of Sensitive Data in Android Framework(**CCS'22**)[[paper](https://dl.acm.org/doi/pdf/10.1145/3548606.3560601)]
@@ -84,14 +114,17 @@ A curated list of Security Big4 papers for Privacy, Mobile Security and Access C
 - Bringing Balance to the Force: Dynamic Analysis of the Android Application Framework(**NDSS'21**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_2B-1_23106_paper.pdf)]
 - Trust, But Verify: A Longitudinal Analysis Of Android OEM Compliance and Customization(**Oakland'21**)[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519425&tag=1)]
 
-#### Mobile Authentication Security
+### Mobile Authentication Security
 
+- **An Empirical Study on Fingerprint API Misuse with Lifecycle Analysis in Real-world Android Apps(NDSS’25)[paper]**
 - InfinityGauntlet: Expose Smartphone Fingerprint Authentication to Brute-force Attack(**Security'23**)[[paper](https://www.usenix.org/system/files/sec23fall-prepub-15-chen-yu.pdf)]
 - AuthentiSense: A Scalable Behavioral Biometrics Authentication Scheme using Few-Shot Learning for Mobile Platforms(**NDSS'23**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s194_paper.pdf)]
 - On the Insecurity of SMS One-Time Password Messages against Local Attackers in Modern Mobile Devices(**NDSS'21**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_3B-4_24212_paper.pdf)]
 
-#### Mobile Application Security
+### Mobile Application Security
 
+- MALintent: Coverage Guided Intent Fuzzing Framework for Android(NDSS’25)[paper]
+- Careful About What App Promotion Ads Recommend! Detecting and Explaining Malware Promotion via App Promotion Graph[NDSS’25](paper)
 - Black-box Adversarial Example Attack towards FCG Based Android Malware Detection under Incomplete Feature Information(**Security'23**)[[paper](https://www.usenix.org/system/files/sec23fall-prepub-2-li-heng.pdf)]
 - One Size Does not Fit All: Quantifying the Risk of Malicious App Encounters for Different Android User Profiles(**Security'23**)[[paper](https://www.usenix.org/system/files/sec23fall-prepub-307-dambra.pdf)]
 - Detecting and Measuring Misconfigured Manifests in Android Apps(**CCS'22**)[[paper](https://web.cse.ohio-state.edu/~lin.3021/file/CCS22c.pdf)]
@@ -106,38 +139,41 @@ A curated list of Security Big4 papers for Privacy, Mobile Security and Access C
 - How Did That Get In My Phone? Unwanted App Distribution on Android Devices(**Oakland'21**)[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519429&tag=1)]
 - Trouble Over-The-Air: An Analysis of FOTA Apps in the Android Ecosystem(**Oakland'21**)[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519485)]
 
-#### Mobile Network Security
+### Mobile Network Security
 
 - Your Phone is My Proxy: Detecting and Understanding Mobile Proxy Networks(**NDSS'21**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_3B-2_24008_paper.pdf)]
 
-#### Mini-app Security
+### Mini-app Security
 
+- Understanding the Miniapp Malware: Identification, Dissection, and Characterization(NDSS’25)[paper]
+- The Skeleton Keys: A Large Scale Analysis of Credential Leakage in Mini-apps(NDSS’25)[paper]
 - Uncovering and Exploiting Hidden APIs in Mobile Super Apps(**CCS'23**)[[paper](https://arxiv.org/pdf/2306.08134.pdf)]
 - One Size Does Not Fit All: Uncovering and Exploiting Cross Platform Discrepant APIs in WeChat(**Security'23**)[[paper](https://chaowang.dev/publications/sec23a.pdf)] [[code](https://github.com/OSUSecLab/APIDiff)]
 - Cross Miniapp Request Forgery: Root Causes, Attacks, and Vulnerability Detection(**CCS'22**)[[paper](https://web.cse.ohio-state.edu/~lin.3021/file/CCS22b.pdf)]
 - Identity Confusion in WebView-based Mobile App-in-app Ecosystems(**Security'22**)[[paper](https://www.usenix.org/system/files/sec22-zhang-lei.pdf)] [[slides](https://www.usenix.org/system/files/sec22_slides-zhang_lei.pdf)]
 
-#### Android Emulator&Sandbox Security
+### Android Emulator&Sandbox Security
 
 - The Droid is in the Details: Environment-aware Evasion of Android Sandboxes(**NDSS'22**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/2022-56A-paper.pdf)]
 - Towards Transparent and Stealthy Android OS Sandboxing via Customizable Container-Based Virtualization(**CCS'21**)[[paper](https://par.nsf.gov/servlets/purl/10327186)]
 - Android on PC: On the Security of End-user Android Emulators(**CCS'21**)[[paper](https://diaowenrui.github.io/paper/ccs21-xu.pdf)]
 
-#### Side Channel Attack
+### Side Channel Attack
 
+- The Danger of Minimum Exposures: Understanding Cross-App Information Leaks on iOS through Multi-Side-Channel Learning (CCS’23)[[paper](https://dl.acm.org/doi/abs/10.1145/3576915.3616655)]
 - Hope of Delivery: Extracting User Locations From Mobile Instant Messengers (**NDSS'23**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s188_paper.pdf)]
 - StealthyIMU: Stealing Permission-protected Private Information From Smartphone Voice Assistant Using Zero-Permission Sensors(**NDSS'23**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f77_paper.pdf)]
 - Thwarting Smartphone SMS Attacks at the Radio Interface Layer(**NDSS'23**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f432_paper.pdf)]
 - This Sneaky Piggy Went to the Android Ad Market: Misusing Mobile Sensors for Stealthy Data Exfiltration(**CCS'21**)[[paper](https://dl.acm.org/doi/pdf/10.1145/3460120.3485366)]
 
-#### Misc
+### Misc
 
 - Clues in Tweets: Twitter-Guided Discovery and Analysis of SMS Spam(**CCS'22**)[[paper](https://arxiv.org/pdf/2204.01233.pdf)]
 - Analyzing Ground-Truth Data of Mobile Gambling Scams(**Oakland'22**)[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9833665&tag=1)]
 
-### Access Control
+## Access Control
 
-#### Vulnerability & Detection
+### Vulnerability & Detection
 
 - Credit Karma: Understanding Security Implications of Exposed Cloud Services through Automated Capability Inference(**Security'23**)[[paper](https://www.usenix.org/system/files/sec23summer_270-wang_xueqiang-prepub.pdf)]
 - Improving Logging to Reduce Permission Over-Granting Mistakes(**Security'23**)[[paper](https://www.usenix.org/system/files/sec23summer_2-shen-prepub.pdf)]
@@ -148,7 +184,7 @@ A curated list of Security Big4 papers for Privacy, Mobile Security and Access C
 - Uncovering Cross-Context Inconsistent Access Control Enforcement in Android(**NDSS'22**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/2022-166-paper.pdf)]
 - Android Custom Permissions Demystified: From Privilege Escalation to Design Shortcomings(**Oakland'21**)[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519385)]
 
-#### Strategy Design
+### Strategy Design
 
 - Browser Permission Mechanisms Demystified (**NDSS'23**)[[paper](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s109_paper.pdf)]
 - Optimistic Access Control for the Smart Home(**Oakland'23**)[[paper](https://obj.umiacs.umd.edu/ieeesp23/Optimistic_Access.pdf)]
@@ -156,8 +192,7 @@ A curated list of Security Big4 papers for Privacy, Mobile Security and Access C
 - Automatic Policy Generation for Inter-Service Access Control of Microservices(**Security'21**)[[paper](https://www.usenix.org/system/files/sec21-li-xing.pdf)] [[slides](https://www.usenix.org/system/files/sec21_slides_li_xing.pdf)]
 - SEApp: Bringing Mandatory Access Control to Android Apps(**Security'21**)[[paper](https://www.usenix.org/system/files/sec21-rossi.pdf)] [[slides](https://www.usenix.org/system/files/sec21_slides_rossi.pdf)]
 
-#### Misc
-
+### Misc
 
 - PolyScope: Multi-Policy Access Control Analysis to Compute Authorized Attack Operations in Android Systems(**Security'21**)[[paper](https://www.usenix.org/system/files/sec21-lee-yu-tsung.pdf)] [[slides](https://www.usenix.org/system/files/sec21_slides_lee-yu-tsung.pdf)]
 
